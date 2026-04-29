@@ -1,0 +1,16 @@
+@5
+D=A
+@count
+M=D
+(LOOP)
+@count
+D=M
+@END
+D;JEQ
+@count
+M=M-1
+@LOOP
+0;JMP
+(END)
+@END
+0;JMP
